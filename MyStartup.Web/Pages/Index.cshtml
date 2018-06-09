@@ -1,0 +1,33 @@
+﻿@page
+@model MyStartup.Web.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].PublishDate)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Game) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublishDate)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
