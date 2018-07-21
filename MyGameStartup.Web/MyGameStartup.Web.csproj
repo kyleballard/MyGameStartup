@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyStartup.Data\MyStartup.Data.csproj" />
-    <ProjectReference Include="..\MyStartup.Domain\MyStartup.Domain.csproj" />
+    <ProjectReference Include="..\MyGameStartup.Data\MyGameStartup.Data.csproj" />
+    <ProjectReference Include="..\MyGameStartup.Domain\MyGameStartup.Domain.csproj" />
   </ItemGroup>
 
 </Project>

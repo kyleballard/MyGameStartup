@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStartup.Web", "MyStartup.Web\MyStartup.Web.csproj", "{483FB6A4-9438-47A0-84B3-3C96346F48A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGameStartup.Web", "MyGameStartup.Web\MyGameStartup.Web.csproj", "{483FB6A4-9438-47A0-84B3-3C96346F48A5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStartup.Domain", "MyStartup.Domain\MyStartup.Domain.csproj", "{EAC61F11-BEC2-4278-8692-4C5202C754DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGameStartup.Domain", "MyGameStartup.Domain\MyGameStartup.Domain.csproj", "{EAC61F11-BEC2-4278-8692-4C5202C754DA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStartup.Data", "MyStartup.Data\MyStartup.Data.csproj", "{B8E88B63-5BEA-4010-877C-B2F1D6A4896B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGameStartup.Data", "MyGameStartup.Data\MyGameStartup.Data.csproj", "{B8E88B63-5BEA-4010-877C-B2F1D6A4896B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{BD8BD145-18E7-4BD1-83A6-84786CB551B3}"
 	ProjectSection(SolutionItems) = preProject
